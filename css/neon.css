@@ -1,0 +1,55 @@
+body{
+    background: #000;
+}
+
+.container{
+    border-radius: 60px;
+    /*border: 2px solid white;
+    box-shadow: inset 0 0 5px blue, 0 0 8px blue;*/
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    color:white;
+    
+}
+
+.neon{
+    animation: parpadear 4.2s infinite backwards steps(2);
+    margin: 0;
+    font-size: 80px;
+    text-shadow: 0 0 5px blue, 0 0 15px blue, 0 0 30px blue, 0 0 50px blue;
+    font-family: 'Caveat', cursive;
+}
+
+
+.neon2{
+    letter-spacing: 5px;
+    margin: 0;
+    font-size: 50px;
+    text-shadow: 0 0 5px gold, 0 0 10px gold;
+    font-family: monospace;
+}
+
+.adorno1{
+    animation: parpadear 3.2s infinite backwards steps(2);
+}
+.adorno2{
+
+    animation: parpadear 5.8s infinite backwards steps(2);
+}
+
+.adorno3{
+
+    animation: parpadear 5.5s infinite backwards steps(2);
+}
+
+
+@keyframes parpadear {
+
+    to{
+        color: grey;
+        text-shadow: none;
+    }
+    
+}

@@ -1,0 +1,33 @@
+.list{
+
+    margin-top: 10px;
+    list-style: none;
+    padding-left:  0px;
+    background: #13a4a4;
+}
+
+.list__item{
+    display: inline-block;
+}
+
+.list__item a{
+    color:white;
+    padding: 5px;
+    border-radius: 100px;
+    text-decoration: none ;
+}
+
+.list__item a:hover{
+
+        color:blueviolet;
+
+}
+.list__item a:active{
+
+    color:red;
+}
+
+.list__item a::before{
+    content: "°°°";
+
+}
