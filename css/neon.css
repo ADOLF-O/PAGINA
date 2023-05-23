@@ -15,7 +15,7 @@ body{
 }
 
 .neon{
-    animation: parpadear 4.2s infinite backwards steps(2);
+   
     margin: 0;
     font-size: 80px;
     text-shadow: 0 0 5px blue, 0 0 15px blue, 0 0 30px blue, 0 0 50px blue;
