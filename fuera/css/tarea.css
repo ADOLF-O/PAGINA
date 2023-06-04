@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+
+body{
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+.head-nav{
+    background: #000;
+    height: 60px;
+    box-shadow: 0 0 15px 3px blue;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+}
+.head-nav a{
+    background: #000;
+    position: absolute;
+}
+#one{
+    right: 40px;
+    font-size: 30px;
+    top: 20px;
+   
+}
+#two{
+    right: 250px;
+    font-size: 30px;
+    top: 20px;
+}
+#three{
+    right: 415px;
+    font-size: 30px;
+    top: 20px;
+}
+
+#four{
+    background: #000;
+    color: bisque;
+    font-size: 50px;
+}
+
+.side{
+    position: relative;
+    left: 0px;
+    background: white;
+    width: 250px;
+    height: 85vh;
+
+}
+
+#side1{
+    width: 90px;
+    height: 90px;
+    background: #000;
+    position: absolute;
+    left: 80px;
+    top: 50px;
+
+}
+#side2{
+    width: 90px;
+    height: 90px;
+    background: #000;
+    position: absolute;
+    left: 80px;
+    top: 150px;
+
+}
+#side3{
+    width: 90px;
+    height: 90px;
+    background: #000;
+    position: absolute;
+    left: 80px;
+    top: 250px;
+
+}
+
+
+.footer{
+    box-shadow: 0 0 10px 5px #0b2f59;
+    background: #0b2f59;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    position: absolute;
+}
+.footer img{
+    position: absolute;
+    display: inline-block;
+    width: 20px;
+    right: 50%;
+}
+
+.side div{
+    color: white;
+}
+
+
+
